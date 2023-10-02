@@ -1,4 +1,70 @@
 body{
     background-image: url("painting stuff.jpeg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(1, 40, 40);
+}
+
+
+.menu{
+    display: flex;
+    width: 100%;
+    flex-flow:row; 
+    justify-content: flex-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu2{
+    width: 100px;
+    height: 10px;
+    margin: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    background-color:rgba(0, 128, 128, 0.8);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.main{
+    margin: 30px;
+}
+
+.text{
+    margin: 70px;
+    padding: 30px;
+    background-color: rgba(0, 128, 128, 0.8);
+    border-radius: 15px;
+    font-size: 14pt;
+    line-height: 2em;
+}
+
+.bubble1{
+    width: 400px;
+    background-color: rgba(0, 128, 128, 0.8);
+    border-radius:15px;
+    padding:5px;
+    color: rgb(37, 35, 35);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+
+}
+
+.bubble2{
+    background-color: rgba(0, 128, 128, 0.8);
+    border-radius:15px;
+    color: rgb(37, 35, 35);
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.title{
+    font-size: 48pt;
+    color: rgb(37, 35, 35);
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
